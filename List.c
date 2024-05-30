@@ -6,7 +6,5 @@ void append(t_list *list, char* element){
 }
 
 void print_list(t_list list){
-    for(int i = 0; i<list.size; i++){
-         printf("%s", list.items[i]);
-     }
+    for(int i = 0; i<list.size; i++) printf("%s", list.items[i]);
 }
