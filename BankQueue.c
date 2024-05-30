@@ -6,7 +6,6 @@ t_list bank_queue (){
     t_list served_customers;
     served_customers.size = 0;
     char input[40];
-    int total_customers_served = 0;
     int priority_customers_served = 0;
 
     while(input[0] != 'f'){
